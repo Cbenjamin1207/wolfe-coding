@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8"/>
 		<title>Calder Benjamin</title>
@@ -20,8 +20,8 @@
 				as well as other freelance developers looking for partners.</p>
 
 			<h2>Goal</h2>
-			<p>To work or intern with a project with interesting implications and goals, or to survive until
-				I reach that point.</p>
+			<p>To work or intern with a project with interesting implications and goals, or to attract freelance
+				clients until I reach that point.</p>
 
 			<h2>Persona</h2>
 			<p>Name: Shannon Digs</p>
