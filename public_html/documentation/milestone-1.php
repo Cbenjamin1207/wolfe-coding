@@ -27,8 +27,15 @@
 
 			<p>Age: 26 years old</p>
 
+			<p>Technical Expertise: Is confident in graphic design, as well as a competent computer user,
+				but lacking any hard-coding skills.</p>
+
+			<p>Attitude: Very driven, has been burnt out by retail work Shannon is very ready to be working on
+				their goal, and is looking to hire people with a similar drive. Disparages those who don't work hard,
+				and values individuality. Shannon is not looking for someone who will simply work, but rather innovate.</p>
+
 			<p>Description: After finishing their degree, worked in retail for some time. Doesn't enjoy that work
-				very much, unsurprisingly, and wants to expand. Has a hearing impaired cousin, and remembers how much
+				very much, unsurprisingly, and wants to expand their horizons. Has a hearing impaired cousin, and remembers how much
 				difficulty they could sometimes have in interacting with certain websites. Shannon gets in touch with
 				them, and starts to write up a plan for a program that could help make it easier in difficult circumstances.</p>
 
