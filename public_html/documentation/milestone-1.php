@@ -12,16 +12,15 @@
 
 		<main>
 			<h2>Purpose</h2>
-			<p>I seek to be working on an interesting project that I am passionate about, with people
-				that hold ideals and passions compatible with mine. </p>
+			<p>The project will showcase me as a commpetent devoloper with an adequate skillset and passion
+				to be marketable.</p>
 
 			<h2>Audience</h2>
-			<p>Smaller and startup companies, along with potential customers looking for a freelance developer,
-				as well as other freelance developers looking for partners.</p>
+			<p>The site is primarily designed to appeal to smaller and start up companies, rather than corporate.</p>
 
 			<h2>Goal</h2>
-			<p>To work or intern with a project with interesting implications and goals, or to attract freelance
-				clients until I reach that point.</p>
+			<p>To provide an additional feature on a portfolio or resume to increase my value as an employee, as well
+				as to appeal to those looking for skilled workers to help them realize their passion.</p>
 
 			<h2>Persona</h2>
 			<p>Name: Shannon Digs</p>
