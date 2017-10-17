@@ -12,7 +12,7 @@
 
 		<main>
 			<h2>Purpose</h2>
-			<p>The project will showcase me as a commpetent devoloper with an adequate skillset and passion
+			<p>The project will showcase me as a competent developer with an adequate skill set and passion
 				to be marketable.</p>
 
 			<h2>Audience</h2>
@@ -27,7 +27,7 @@
 
 			<p>Age: 26 years old</p>
 
-			<p>Technical Expertise: Is confident in graphic design, as well as a competent computer user,
+			<p>Technical Expertise: Is confident in graphic design, as well as a competent mac OS 10 user,
 				but lacking any hard-coding skills.</p>
 
 			<p>Attitude: Very driven, has been burnt out by retail work Shannon is very ready to be working on
@@ -43,7 +43,7 @@
 				the hearing impaired interact with websites that normally require audio cues. Shannon is now looking for passionate
 				workers with relevant skillsets to help realize the project.</p>
 
-			<p>Difficulties: Has little to no coding experience, and doesn't know the technical requirements necessary
+			<p>Frustrations: Has little to no coding experience, and doesn't know the technical requirements necessary
 				to make the project possible. Most others who share the same level of passion don't bring any relevant
 				skillsets to the table, and just want to help in the planning phase. Shannon is ready to move out of the
 				planning phase and into development, but needs to find people who know how to do that.</p>
