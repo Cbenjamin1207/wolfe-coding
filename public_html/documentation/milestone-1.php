@@ -27,8 +27,10 @@
 
 			<p>Age: 26 years old</p>
 
-			<p>Technical Expertise: Is confident in graphic design, as well as a competent mac OS 10 user,
-				with a basic understanding of java and C++.</p>
+			<p>Technical Expertise: Macintosh user. Prefers to stay lightweight and mobile. Uses a MacBook Pro
+				with a 15" display and Intel Core i7, fitted with OS X 10.10 Yosemite, and an iphone 8 with an unlimited
+				4g data connection. Is confident in graphic design using Adobe Photoshop and AfterEffects, as well as
+				having a basic understanding of java and C++. </p>
 
 			<p>Attitude: Very driven, has been burnt out by retail work. Shannon has begun work on
 				their goal, and is looking to hire people with a similar drive. Disparages those who don't work hard,
