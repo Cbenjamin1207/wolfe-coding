@@ -33,10 +33,10 @@
 				general life story. I will also include links to other social media and contact sites.</p>
 			
 			<h2>Mobile Wireframe</h2>
-			<img src="../mobile.png" alt="Mobile Wireframe">
+			<img src="../mobile.png" alt="Mobile wireframe">
 
 			<h2>Desktop Wireframe</h2>
-			<img src="../desktop.png" alt="Desktop Wireframe: https://wireframe.cc/QEb0Jj">
+			<img src="../desktop.png" alt="Desktop wireframe: https://wireframe.cc/QEb0Jj">
 		</main>
 	</body>
 </html>
