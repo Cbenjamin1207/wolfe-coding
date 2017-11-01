@@ -30,8 +30,13 @@
 
 			<h3>About Me</h3>
 			<p>The final section will give a general overview of myself, some of my ideologies, and my
-			general life story. I will also include links to other social media and contact sites.</p>
+				general life story. I will also include links to other social media and contact sites.</p>
+			
+			<h2>Mobile Wireframe</h2>
+			<img src="../mobile.png" alt="Mobile Wireframe">
 
+			<h2>Desktop Wireframe</h2>
+			<img src="../desktop.png" alt="Desktop Wireframe: https://wireframe.cc/QEb0Jj">
 		</main>
 	</body>
 </html>
