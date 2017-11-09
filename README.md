@@ -10,3 +10,11 @@ Your persona, overall, is very specific and concise. It paints a good picture of
 
 ### Final thoughts and grade
 Great job so far! Can't wait to see where you take your PWP. You're free to move to milestone 2, and your grade is [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+## Milestone 2a Feedback
+
+### feedback
+It is hard to tell what is intentional in these wireframes and what's not. For a client or workplace, consistency and accuracy in wireframes are expected, as they are often a client deliverable that requires sign-off. That being said what you laid out in the content strategy should be easy to accomplish and fits within the scope of PWP.  I highly recommend that you spend some time nailing down the what your PWP will look like. It is important to have a concrete plan to when it comes to creating elegant front ends. Even small design ideas can have complicated implementations that can throw off a whole project. 
+
+### Grade Tier II
+ If you would like to redo the wireframes and resubmit them for a higher grade (up to one higher tier) you must do so by 11/10
