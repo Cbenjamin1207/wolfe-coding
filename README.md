@@ -18,3 +18,6 @@ It is hard to tell what is intentional in these wireframes and what's not. For a
 
 ### Grade Tier II
  If you would like to redo the wireframes and resubmit them for a higher grade (up to one higher tier) you must do so by 11/10
+
+## Milestone 2b Checkin
+Meeting notes sent via Slack. Your PWP Milestone 2b meets [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). 
