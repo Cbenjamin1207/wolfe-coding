@@ -98,16 +98,27 @@
 				</div>
 				<div class="col">
 					<div class="jumbotron">
-						<div class="form-group">
-							<label for="Name">Name</label>
-							<input type="text" class="form-control" id="Name" placeholder="Name">
-							<label for="Email">Email</label>
-							<input type="email" class="form-control" id="Email" placeholder="Email">
-							<label for="Subject">Subject</label>
-							<input type="text" class="form-control" id="Subject" placeholder="Subject">
-							<label for="Input">Message</label>
-							<textarea class="form-control" id="Input" rows="4"></textarea>
-							<button type="button" class="btn">Send</button>
+						<form id="contact-form" action="php/mailer.php" method="post" novalidate>
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+								<label for="subject">Subject</label>
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+								<label for="message">Message</label>
+								<textarea class="form-control" name="message" id="message" rows="4" placeholder="Message (2000 char max)"></textarea>
+
+								<div class="g-recaptcha" data-sitekey="6LdblToUAAAAAO6G2ISDJMvQGs23ozV1PaBs0WBQ"></div>
+
+								<button class="btn" type="submit">Send</button>
+							</div>
+						</form>
+
+						<div class="row">
+							<div class="col">
+								<div id="output-area"></div>
+							</div>
 						</div>
 					</div>
 				</div>
