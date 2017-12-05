@@ -5,7 +5,8 @@
 		<title>Wolfe Coding</title>
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-		<link rel="stylesheet" href="styles/style.css">
+		<link type="text/css" href="styles/style.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -19,7 +20,6 @@
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/jquery-validate.js"></script>
 
-		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -27,48 +27,60 @@
 
 	<body>
 		<header>
-			<div class="container">
-				<div class="row">
-					<div class="col">
+			<div class="container" id="top">
+				<div class="row mt-5 mb-2">
+					<div class="col-md">
 						<h1>Wolfe Coding</h1>
-						<h2>Calder Wolfe Benjamin</h2>
 					</div>
+					<div class="col-md mt-4 mt-md-1">
+						<h2 class="text-right pt-md-2">Calder Wolfe Benjamin</h2>
+					</div>
+				</div>
+				<div class="row my-3">
+					<ul class="nav">
+						<li class="nav-item">
+							<a href="#skills" class="nav-link active">Skills and Experience</a>
+						</li>
+						<li class="nav-item">
+							<a href="#languages" class="nav-link active">Platforms and Languages</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link active">Contact Me</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</header>
 
-		<h3 class="text-center">Skills and Experience</h3>
-		<div class="container">
+		<div class="container" id="skills">
 			<div class="row">
-
-				<div class="col">
-					<div class="card-deck">
-						<div class="card">
+				<div class="col mt-2">
+					<h3 class="text-left mb-md-3 mb-4">Skills and Experience</h3>
+					<div class="card-deck mb-4">
+						<div class="card mb-5 my-md-3">
 							<div class="card-body">
-								<h3 class="card-title">KindHub</h3>
-								<p class="card-text">Brief description of the website</p>
+								<h3 class="card-title mb-3">KindHub</h3>
+								<p class="card-text mb-4">Connecting volunteers and donors to those in need. No middle man, no hoops to jump through. Users can
+									create their own hubs which anyone can donate anonymously to, and distribute goods as they see fit.</p>
 								<h4 class="card-subtitle">Responsibilities</h4>
 								<ul>
-									<li>Somethin</li>
-									<li>Somethin else</li>
-									<li>Somethin big</li>
-									<li>Somethin small</li>
-									<li>pboihapdfiohakbanoidfhkanpbik</li>
+									<li>mySQL database creation and manipulation</li>
+									<li>Implementation with angular framework</li>
+									<li>PHP class creation</li>
+									<li>Creation and testing of APIs.</li>
 								</ul>
-								<p class="card-text">Here is the website or something</p>
 							</div>
 						</div>
 
-
-						<div class="github-widget" data-username="cbenjamin1207"></div>
-						<script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
-
-						<div class="card">
+						<div class="card mb-1 my-md-3">
 							<div class="card-body">
+								<h3 class="card-title">Skillset</h3>
 								<p class="card-text"><strong>Adaptability:</strong> high performance in any work environment.</p>
 								<p class="card-text"><strong>Proficiency:</strong> learns and excels in new skills quickly and efficiently.</p>
 								<p class="card-text"><strong>Teamwork:</strong> experience working in teams on a variety of projects.</p>
 								<p class="card-text"><strong>Initiative:</strong> willing and able to spearhead new and intimidating tasks.</p>
+								<p class="card-text">Bringing unique problem solving solutions to any project, I am more than comfortable working both
+									independently and in a team. </p>
 							</div>
 						</div>
 					</div>
@@ -76,44 +88,47 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container" id="languages">
 			<div class="row">
-				<div class="col">Platforms and Languages</div>
+				<div class="col mb-4 mt-3">
+					<h3 class="text-left">Platforms and Languages</h3>
+					</div>
 			</div>
-			<div class="row">
+			<div class="row mb-5">
 				<div class="col">
 					<div class="jumbotron">
-						<table class="table">
+						<table class="table table-responsive">
 							<thead>
 								<tr>
 									<th>Language or Platform</th>
-									<th>Proficiencies</th>
+									<th class="align-middle">Proficiencies</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Object Oriented: PHP/Java</td>
-									<td>Class creation, functions, inheritance, traits, project structure, recursion</td>
+									<td class="align-middle">Object Oriented: PHP/Java</td>
+									<td class="align-middle">Class creation, functions, inheritance, traits, project structure, recursion</td>
 								</tr>
 								<tr>
-									<td>HTML5</td>
-									<td>Syntax and structure, bootstrap architecture, Javascript integration</td>
+									<td class="align-middle">HTML5</td>
+									<td class="align-middle">Syntax and structure, bootstrap architecture, Javascript integration</td>
 								</tr>
 								<tr>
-									<td>Javascript and Angular</td>
-									<td>Plaintext Javascript, script creation, design patterns, working within the Angular framework</td>
+									<td class="align-middle">Javascript and Angular</td>
+									<td class="align-middle">Plaintext Javascript, script creation, design patterns, working within the Angular framework</td>
 								</tr>
 								<tr>
-									<td>CSS</td>
-									<td>Custom style sheets, styling in conjunction with Bootstrap architecture</td>
+									<td class="align-middle">CSS</td>
+									<td class="align-middle">Custom style sheets, styling in conjunction with Bootstrap architecture</td>
 								</tr>
 								<tr>
-									<td>mySQL</td>
-									<td>Data design, database manipulation through PHP, database manipulation through mySQL command line</td>
+									<td class="align-middle">mySQL</td>
+									<td class="align-middle">Data design, database manipulation through PHP, database manipulation through mySQL command line</td>
 								</tr>
 								<tr>
-									<td>Operating Systems</td>
-									<td>Windows power user, navigation through the command line, troubleshooting, Linux command line through an SSH</td>
+									<td class="align-middle">Operating Systems</td>
+									<td class="align-middle">Windows power user, navigation through the command line, troubleshooting,
+										Linux command line through an SSH</td>
 								</tr>
 							</tbody>
 						</table>
@@ -122,15 +137,13 @@
 			</div>
 		</div>
 
-		<div class="container">
+		<div class="container" id="contact">
 			<div class="row">
-				<div class="col">About</div>
-				<div class="col">Contact</div>
+				<div class="col mb-4 mt-3">
+					<h3 class="text-left">Contact</h3>
+				</div>
 			</div>
 			<div class="row">
-				<div class="col">
-					<div class="jumbotron">I am </div>
-				</div>
 				<div class="col">
 					<div class="jumbotron">
 						<form id="contact-form" action="php/mailer.php" method="post" novalidate>
@@ -151,18 +164,29 @@
 								<textarea class="form-control" name="message" id="message" rows="4" placeholder="Message (2000 char max)"></textarea>
 							</div>
 
-								<div class="g-recaptcha" data-sitekey="6LdblToUAAAAAO6G2ISDJMvQGs23ozV1PaBs0WBQ"></div>
+								<div class="g-recaptcha mb-2" data-sitekey="6LdblToUAAAAAO6G2ISDJMvQGs23ozV1PaBs0WBQ"></div>
 
-								<button class="btn" type="submit">Send</button>
+								<button id="send" class="btn" type="submit">Send</button>
 						</form>
 						<div class="row">
 							<div class="col">
 								<div id="output-area"></div>
 							</div>
 						</div>
+						<div class="mt-3">
+							<ul class="nav">
+								<li class="nav-item">
+									<a href="https://www.linkedin.com/in/calder-benjamin/" class="nav-link active" target="_blank">LinkedIn</a>
+								</li>
+								<li class="nav-item">
+									<a href="https://github.com/Cbenjamin1207" class="nav-link active" target="_blank">GitHub</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<a href="#top" class="nav-link active text-center mb-5">Top</a>
 	</body>
 </html>
