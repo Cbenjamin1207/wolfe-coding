@@ -37,7 +37,7 @@
 					</div>
 				</div>
 				<div class="row my-3">
-					<ul class="nav">
+					<ul class="nav flex-column flex-md-row">
 						<li class="nav-item">
 							<a href="#skills" class="nav-link active">Skills and Experience</a>
 						</li>
@@ -56,13 +56,13 @@
 			<div class="row">
 				<div class="col mt-2">
 					<h3 class="text-left mb-md-3 mb-4">Skills and Experience</h3>
-					<div class="card-deck mb-4">
+					<div class="card-deck mb-4 p-md-2 p-3" style="background-color: #e3f2fd">
 						<div class="card mb-5 my-md-3">
 							<div class="card-body">
-								<h3 class="card-title mb-3">KindHub</h3>
+								<h4 class="card-title mb-3">KindHub</h4>
 								<p class="card-text mb-4">Connecting volunteers and donors to those in need. No middle man, no hoops to jump through. Users can
 									create their own hubs which anyone can donate anonymously to, and distribute goods as they see fit.</p>
-								<h4 class="card-subtitle">Responsibilities</h4>
+								<h5 class="card-subtitle">Responsibilities</h5>
 								<ul>
 									<li>mySQL database creation and manipulation</li>
 									<li>Implementation with angular framework</li>
@@ -74,7 +74,7 @@
 
 						<div class="card mb-1 my-md-3">
 							<div class="card-body">
-								<h3 class="card-title">Skillset</h3>
+								<h4 class="card-title">Skillset</h4>
 								<p class="card-text"><strong>Adaptability:</strong> high performance in any work environment.</p>
 								<p class="card-text"><strong>Proficiency:</strong> learns and excels in new skills quickly and efficiently.</p>
 								<p class="card-text"><strong>Teamwork:</strong> experience working in teams on a variety of projects.</p>
@@ -94,10 +94,10 @@
 					<h3 class="text-left">Platforms and Languages</h3>
 					</div>
 			</div>
-			<div class="row mb-5">
+			<div class="row mb-2">
 				<div class="col">
-					<div class="jumbotron">
-						<table class="table table-responsive">
+					<div class="jumbotron" style="background-color: #e3f2fd">
+						<table class="table table-responsive table-light">
 							<thead>
 								<tr>
 									<th>Language or Platform</th>
@@ -139,13 +139,13 @@
 
 		<div class="container" id="contact">
 			<div class="row">
-				<div class="col mb-4 mt-3">
+				<div class="col mb-4 mt-1">
 					<h3 class="text-left">Contact</h3>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col">
-					<div class="jumbotron">
+					<div class="jumbotron" style="background-color: #e3f2fd">
 						<form id="contact-form" action="php/mailer.php" method="post" novalidate>
 							<div class="form-group">
 								<label for="name">Name</label>
@@ -187,6 +187,6 @@
 				</div>
 			</div>
 		</div>
-		<a href="#top" class="nav-link active text-center mb-5">Top</a>
+		<a href="#top" class="nav-link active text-center mb-5 lead">Top</a>
 	</body>
 </html>

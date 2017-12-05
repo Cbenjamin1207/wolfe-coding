@@ -1,9 +1,9 @@
-#RewriteEngine on
-#RewriteCond %{HTTP_HOST} ^wolfecoding.com$ [NC,OR]
-#RewriteCond %{HTTP_HOST} ^www.wolfecoding.com$
-#RewriteCond %{REQUEST_URI} !public_html/
-#RewriteRule (.*) /public_html/$1 [L]
-#
-## this forces SSL connection
-#RewriteCond %{HTTPS} !=on
-#RewriteRule (.*) https://wolfecoding.com/$1 [L]
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^wolfecoding.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.wolfecoding.com$
+RewriteCond %{REQUEST_URI} !public_html/
+RewriteRule (.*) /public_html/$1 [L]
+
+# this forces SSL connection
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) https://wolfecoding.com/$1 [L]

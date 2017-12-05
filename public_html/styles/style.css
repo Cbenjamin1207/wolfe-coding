@@ -5,3 +5,11 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+
+a {
+	color: #999da3;
+}
+
+h1, h2, h3 {
+	color: #010672;
+}
