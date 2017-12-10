@@ -21,3 +21,22 @@ It is hard to tell what is intentional in these wireframes and what's not. For a
 
 ## Milestone 2b Checkin
 Meeting notes sent via Slack. Your PWP Milestone 2b meets [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). 
+
+## PWP Final Feedback
+Nice work on a simple and effective personal website. Your content is great, and the layout is clear and attractive on wide and narrow screens across all breakpoints. Your HTML, CSS and JS looks good too.
+
+Unfortunately it looks like your contact form isn't working. I'm getting a 500 error when it hits mailer.php. It looks like it's passing through jQuery validate ok, and the reCATPCHA is working fine. Be sure that you ran `composer install` on your web host. That might be the issue.
+
+Your PWP passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Your overall grade across all of your PWP Milestones is 25/40 points (62.5%). Please keep in mind that 20/40 is passing with a "C".
+
+- Milestone 1 - 20%: Tier IV 40(0.2) = 8
+- Milestone 2a - 20%: Tier II 20(0.2) = 4
+- Milestone 2b - 10%: Tier III 30(0.1) = 3
+- Milestone 3 - 50%: Tier II 20(0.5) = 10
+
+### Edits &amp; Suggestions
+Definitely fix the contact form before demo day, especially if you're going to use this site as part of a job search.
+
+One thing I might consider is highlighting the KindHub project a bit more, perhaps including a screenshot and URL (later, of course!), and a github link to the repo.
+
+Even though front end stuff isn't your thing, you've successfully created a simple layout well. Nice work.
