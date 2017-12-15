@@ -2,4 +2,4 @@
 /.idea
 /vendor
 **/php/mail-config.php
-deploymment-config.json
+/deploymment-config.json
